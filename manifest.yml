@@ -1,0 +1,8 @@
+name: F4FCaller
+path: target/F4FCaller-0.0.1-SNAPSHOT.jar
+memory: 1G
+instances: 1
+buildpack: mon_java 
+disk_quota: 512M
+timeout: 90 
+health-check-type: process
